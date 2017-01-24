@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #E5E7E9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-left: 10px;
+  height: 60px;
+  border-bottom: .1px solid #D7DBDD;
+  padding-top: 15px;
+}
+
+.nav-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: black;
+}
+
+.nav-logo-link:hover {
+  text-decoration: underline;
+}
+
+.navigation {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: purple;
+
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 90px;
+  margin-left: 90px;
+}
+
+.search-jobs-title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.search-jobs input {
+  width: 350px;
+  height: 30px;
+  border: .1px solid #D7DBDD;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.search-jobs img {
+  height: 28px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px 3px 2px 3px;
+}
+
+.search-button {
+  border: .1px solid #D7DBDD;
+  border-radius: 3px;
+  height: 30px;
+  display: inline-block;
+  padding: 1px;
+}
+
+.pages {
+  border: .1px solid #D7DBDD;
+  border-radius: 3px;
+  width: 350px;
+  margin-top: 30px;
+
+}
+
+.search-results-count h3 {
+  font-size: 16px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+.search-results-count a:hover {
+   text-decoration: underline;
+}
+
+.search-results-count a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.prev {
+  display: inline-block;
+  width: 20%;
+}
+
+.count {
+  display: inline-block;
+  border-left: .1px solid #D7DBDD;
+  border-right: .1px solid #D7DBDD;
+  width: 55%;
+}
+
+
+.next {
+  display: inline-block;
+  width: 20%;
+}
+
+.search-results {
+  margin-top: 30px;
+}
+.search-results ul {
+  padding-left: 0;
+}
+
+.search-results p {
+  color: gray;
+}
+
+.search-results a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-results a:hover {
+    text-decoration: underline;
+}
+
+.search-item {
+  list-style: none;
+  padding-left: 0px;
+}
